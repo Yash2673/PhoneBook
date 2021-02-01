@@ -23,6 +23,7 @@ class App extends Component {
             <Route path='/create/:id' component={CreateContact} />
             <Route path='/Dashboard' component={Dashboard} />
             <Route exact path='/' component={Welcome} />
+            <Route exact path='/PhoneBook' component={Welcome} />
           </Switch>
           <Footer />
         </div>
